@@ -1,0 +1,44 @@
+* {
+  border: 2px solid orange;
+}
+
+
+body {
+  background: url("../img/bgstars.gif");
+}
+.body-parent {
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  display:flex;
+  justify-content: center;
+  height: 10em;
+}
+.bottom{
+  display: flex;
+  /* align-self: center; */
+  justify-content: center;
+}
+.t-m{
+  display: flex;
+  justify-content: center;
+
+}
+.b-m{
+  display: flex;
+  justify-content: center;
+}
+.center-logo{
+  display: flex;
+  justify-content: center;
+}
+img{
+  align-self: center;
+}
+#shuttle {
+  align-self: flex-end;
+}
+#behind {
+  align-self: flex-end;
+}
